@@ -1,0 +1,30 @@
+{
+  "name": "fitness-quest-web",
+  "version": "1.0.0",
+  "description": "Fitness Quest - React Web App",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react-redux": "^8.1.1",
+    "axios": "^1.4.0",
+    "chart.js": "^3.9.1",
+    "react-chartjs-2": "^4.3.1",
+    "tailwindcss": "^3.3.0",
+    "react-icons": "^4.9.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src"
+  }
+}
